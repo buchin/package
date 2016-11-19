@@ -1,0 +1,22 @@
+{
+    "name": "buchin/package",
+    "description": "Skeleton template for creating new composer package using kahlan BDD",
+    "type": "project",
+    "require-dev": {
+        "kahlan/kahlan": "^3.0"
+    },
+    "license": "Halal",
+    "authors": [
+        {
+            "name": "Mochammad Masbuchin",
+            "email": "buchin@dropsugar.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Buchin\\Package\\": "src"
+        }
+    }
+}
